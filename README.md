@@ -1,19 +1,11 @@
-# HiFD: A Hierarchical Privacy–Utility Benchmark for Face De-Identification
+# HiFD: A Hierarchical Metric for Face De-Identification Evaluation
 
-This repository is the official implementation of [paper title] (under double-blind review).
+This repository is the official implementation of paper titled *How Private is Private? A Comparative Study for Face De-Identification* (under double-blind review).
 
 ## Requirements
 
 ```bash
 pip install -r requirements.txt
-```
-
-External repos (clone separately and export env vars):
-
-```bash
-git clone https://github.com/WildChlamydia/MiVOLO        # → $MIVOLO_REPO
-git clone https://github.com/<samer-org>/SAMER          # → $SAMER_REPO
-git clone https://github.com/ubicomplab/rPPG-Toolbox    # → $RPPG_REPO
 ```
 
 Pretrained weight files are listed under `configs/estimators.yaml`. Download
