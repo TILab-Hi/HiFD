@@ -1,0 +1,10 @@
+# All paths support ${ENV_VAR} interpolation. Override per-script via CLI flags.
+data_dir:         ${DATA_DIR}                    # e.g. /path/to/datasets
+weights_dir:      ${WEIGHTS_DIR}                 # e.g. /path/to/pretrained_weights
+predictions_dir:  ${PRED_DIR:-./predictions}     # per-task LMDBs of estimator outputs
+results_dir:      ${RESULTS_DIR:-./results}      # per-method HiFD score tables
+
+# External repos (clone these and export env vars before running):
+mivolo_repo:  ${MIVOLO_REPO}
+samer_repo:   ${SAMER_REPO}
+rppg_repo:    ${RPPG_REPO}

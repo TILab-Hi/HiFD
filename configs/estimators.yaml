@@ -1,0 +1,24 @@
+# Pretrained estimator weights, relative to ${weights_dir}.
+# Public weight URLs are documented in README.md.
+detection:
+  retinaface_resnet50: retinaface/Resnet50_Final.pth
+recognition:
+  arcface:  ms1mv3_arcface_r100_fp16/backbone.pth
+  cosface:  glint360k_cosface_r50_fp16_0.1/backbone.pth
+  adaface:  adaface_pre_trained/adaface_ir50_ms1mv2.ckpt
+age_gender:
+  mivolo:   mivolo/model_utk_age_gender_4.23_97.69.pth
+ethnicity:
+  fairface: fairface/res34_fair_align_multi_7_20190809.pt
+landmark:
+  face_landmarker: mediapipe/face_landmarker.task
+gaze:
+  l2cs:     l2cs/L2CSNet_gaze360.pkl
+macro_exp:
+  poster:   poster/affectnet-7cls.pth
+micro_exp:
+  samer_dir: samer/loso_checkpoints     # 26 LOSO-fold checkpoints
+rppg:
+  physnet:        rppg/PhysNet.pth
+  efficientphys:  rppg/EfficientPhys.pth
+  factorizephys:  rppg/FactorizePhys.pth

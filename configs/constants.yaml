@@ -1,0 +1,7 @@
+Delta_age: 100.0
+tau_NME: 0.10
+theta_max_deg: 90.0
+tau_HR: 20.0
+tau_N: 5.0
+alpha: 0.5
+epsilon: 1.0e-6

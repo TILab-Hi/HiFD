@@ -1,0 +1,20 @@
+# De-identification methods to evaluate. Each method has a single LMDB at
+# ${data_dir}/deid/<lmdb>.lmdb of the same key schema as the original dataset.
+original:
+  lmdb: balanced.lmdb       # original (non-deid) dataset LMDB filename
+  rppg_lmdb: pure.lmdb      # rPPG-only original (video clips)
+  micro_exp_lmdb: dfme.lmdb # micro-expression-only original (DFME-style)
+
+methods:
+  - {name: MI-FGSM,    family: adversarial, lmdb: MI-FGSM.lmdb}
+  - {name: PGD,        family: adversarial, lmdb: PGD.lmdb}
+  - {name: TI-DIM,     family: adversarial, lmdb: TI-DIM.lmdb}
+  - {name: TIP-IM,     family: adversarial, lmdb: TIP-IM.lmdb}
+  - {name: Chameleon,  family: adversarial, lmdb: Chameleon.lmdb}
+  - {name: Adv-Makeup, family: gan,         lmdb: Adv-Makeup.lmdb}
+  - {name: AMT-GAN,    family: gan,         lmdb: AMT-GAN.lmdb}
+  - {name: CIAGAN,     family: gan,         lmdb: CIAGAN.lmdb}
+  - {name: DeID-rPPG,  family: gan,         lmdb: DeID-rPPG.lmdb}
+  - {name: G2Face,     family: gan,         lmdb: G2Face.lmdb}
+  - {name: WeakenDiff, family: diffusion,   lmdb: WeakenDiff.lmdb}
+  - {name: DiffAM,     family: diffusion,   lmdb: DiffAM.lmdb}

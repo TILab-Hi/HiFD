@@ -1,0 +1,13 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+PyYAML>=6.0
+opencv-python>=4.8
+Pillow>=10.0
+lmdb>=1.4
+torch>=2.0
+torchvision>=0.15
+mediapipe>=0.10
+pyiqa>=0.1.10
+lpips>=0.1.4
+pytest>=7.0
