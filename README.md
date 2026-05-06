@@ -63,8 +63,8 @@ Outputs:
 | FairFace (7-race) | https://github.com/joojs/fairface | `fairface/res34_fair_align_multi_7_20190809.pt` |
 | L2CS (Gaze360) | https://github.com/Ahmednull/L2CS-Net | `l2cs/L2CSNet_gaze360.pkl` |
 | MediaPipe Face Landmarker | https://developers.google.com/mediapipe | `mediapipe/face_landmarker.task` |
-| POSTER (AffectNet 7-class) | https://github.com/zczcwh/POSTER_V2 | `poster/affectnet-7cls.pth` |
-| SAMER (CASME II 5-class, 26 LOSO folds) | https://github.com/<samer-org>/SAMER | `samer/loso_checkpoints/` |
+| POSTER (AffectNet 7-class) | https://github.com/zczcwh/POSTER | `poster/affectnet-7cls.pth` |
+| SAMER (CASME II 5-class, 26 LOSO folds) | https://github.com/Justin900429/mimicking-annotation-micro-expression-recognition | `download.sh` |
 | PhysNet | https://github.com/ubicomplab/rPPG-Toolbox | `rppg/PhysNet.pth` |
 | EfficientPhys | https://github.com/ubicomplab/rPPG-Toolbox | `rppg/EfficientPhys.pth` |
 | FactorizePhys | https://github.com/ubicomplab/rPPG-Toolbox | `rppg/FactorizePhys.pth` |
