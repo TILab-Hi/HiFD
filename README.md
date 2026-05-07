@@ -91,7 +91,7 @@ Twelve face de-identification methods evaluated under the **Balanced** profile
 Best HiFD (Balanced) shown in **bold**. Full per-sub-score breakdown (age,
 gender, ethnicity, macro-exp, landmark, gaze, micro-exp, BVP, HR) and the
 PrivacyFirst / Clinical profiles are available in `$RESULTS_DIR/scores.csv`
-after running the pipeline. Numbers reproduce Table 1 of the paper.
+after running the pipeline. Numbers reproduce Table 3 of the paper.
 
 ## License
 
