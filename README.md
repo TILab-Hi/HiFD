@@ -49,7 +49,6 @@ Outputs:
 
 - `$RESULTS_DIR/scores.json`  — per-method full breakdown
 - `$RESULTS_DIR/scores.csv`   — flat table
-- `$RESULTS_DIR/scores.tex`   — LaTeX `\begin{tabular}` ready for `\input{}`
 
 ## Pre-trained Models
 
